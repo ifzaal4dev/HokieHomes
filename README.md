@@ -4,7 +4,7 @@ Welcome to **HokieHomes** – the most over-engineered way to get Virginia Tech 
 
 ## Project Purpose
 
-Find housing like it’s 2049: HokieHomes is a full-stack AI-powered housing advisor. It lets students converse naturally (“cheapest with AC”, “private bath, under 4500”) and get personalized, ranked matches for university dorms or local apartments. 
+HokieHomes is a full-stack AI-powered housing advisor. It lets students converse naturally (“cheapest with AC”, “private bath, under 4500”) and get personalized, ranked matches for university dorms or local apartments. 
 
 Everything goes through a conversational AI layer tuned to minimize friction, maximize helpfulness, and (almost) never say “no results.” Extreme clarity, ranking, and reasoning-per-explanation are built into every response.
 
@@ -12,7 +12,6 @@ Everything goes through a conversational AI layer tuned to minimize friction, ma
 
 ## Codebase Architecture
 
-> This isn’t just a web-app; it’s a multi-language, hybridized, AI-powered monster.
 
 ### Major Components
 
@@ -73,9 +72,9 @@ Everything goes through a conversational AI layer tuned to minimize friction, ma
 
 ---
 
-## "Insane" Features and Philosophy
+## Features and Philosophy
 
-- **Relentless Natural Language Understanding:** The LLM parses all sorts of student lingo (“as cheap as possible with AC,” “I want a suite, co-ed, close to gym”).
+- **Natural Language Understanding:** The LLM parses all sorts of student lingo (“as cheap as possible with AC,” “I want a suite, co-ed, close to gym”).
 - **Failback and Ladder Logic:** If a query is too strict (“female-only, suite, AC, under $3000, honors, top floor”), the AI *relaxes* criteria in order – never just saying "nope." It'll state what concessions it made.
 - **Extreme Prompt Engineering:** Nearly 1000 lines of system prompt govern ranking, field mapping, relaxation, friendly tone, and refusal to ever output SQL/internal structure.
 - **Multi-modal input:** Works from the web or terminal CLI.
@@ -103,7 +102,7 @@ Everything goes through a conversational AI layer tuned to minimize friction, ma
 - Python: 20.5%
 - Other: 0.9%
 
-**In other words:** It's a triple-stack JS/React + AI backend + Pro-level prompt engineering playground that's part hackathon proof-of-concept, part academic research, and part unruly bot. Welcome!
+**In other words:** It's a triple-stack JS/React + AI backend + Pro-level prompt engineering playground which acts as a proof of concept.
 
 ---
 
